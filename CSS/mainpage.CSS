@@ -1,3 +1,13 @@
-body {
-    background-color: aqua; check 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: white;
+    color:#555;
+    font-family: 'Lato','arial','sans-serif';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
 }
