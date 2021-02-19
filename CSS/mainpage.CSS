@@ -1,3 +1,11 @@
+/*-------------------------- COLORS --------------------------*/
+/*-- Orange Main   #e67e22 --*/
+/*-- Orange Dark   #bf6516 --*/
+
+/*-----------------------------------------------------------*/
+/*----- BASIC SETUP -----*/
+/*-----------------------------------------------------------*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,10 +20,9 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.row {
-    max-width: 1140px;
-    margin: 0 auto 0 auto;
-}
+/*-----------------------------------------------------------*/
+/*----- HEADINGS -----*/
+/*-----------------------------------------------------------*/
 
 header {
     background-image:linear-gradient(rgba(0, 0, 0, 0.700) ,rgba(0, 0, 0, 0.700)) ,url(../CSS/img/hero.jpg);
@@ -46,6 +53,54 @@ h1 {
    word-spacing: 4px;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin: 20px 0 0 0 ;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 55px 30px 0 0;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    padding: 0 0 5px 0 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+/*-----------------------------------------------------------*/
+/*----- REUSEABLE COMPONENTS -----*/
+/*-----------------------------------------------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+/*----- buttoms -----*/
 
 .btn:link,
 .btn:visited {
@@ -54,6 +109,11 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
 }
 
 
@@ -63,6 +123,7 @@ h1 {
     margin: 0 15px 0 0;
     background-color: #e67e22;
     border: 1px solid #e67e22;
+    margin: 0 0 0 4px;
 }
 
 .btn-ghost:link,
@@ -72,13 +133,9 @@ h1 {
 }
 
 
-.btn:hover,
-.btn:active {
-    background-color: #bf6516;
-}
-
 .btn-full:hover,
 .btn-full:active {
+    background-color: #bf6516;
     border: 1px solid #bf6516;
 }
 
