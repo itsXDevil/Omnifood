@@ -43,16 +43,6 @@ header {
     -o-transform: translate(-50%, -50%);
 }
 
-h1 {
-    margin: 0 0 20 0;
-   color: #fff;
-   font-size: 240%; 
-   font-weight: 200;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   word-spacing: 4px;
-}
-
 .logo {
     height: 100px;
     width: auto;
@@ -89,6 +79,48 @@ h1 {
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
 }
+/*-----------------------------------------------------------*/
+/*----- HEADERS -----*/
+/*-----------------------------------------------------------*/
+
+h1,
+h2,
+h3 { 
+   text-transform: uppercase;  
+   letter-spacing: 1px;
+}
+
+h1 {
+    font-weight: 200;
+    margin: 0 0 20 0;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 180%;
+    text-align: center;
+    word-spacing: 2px;
+    margin: 0 0 25px 0;
+}
+
+h3 {
+    font-size: 110%;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+
+h2:after {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    margin: 25 auto 0 auto;
+    content: " ";
+}
 
 
 /*-----------------------------------------------------------*/
@@ -99,6 +131,38 @@ h1 {
     max-width: 1140px;
     margin: 0 auto 0 auto;
 }
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: px;
+}
+
+/*----- Paragraph -----*/
+
+.long-copy {
+    line-height: 145%;
+    width: 68%;
+    margin: 0 auto 0 auto;
+}
+
+.box p {
+    font-size: 90%;
+     line-height: 145%;
+}
+
+/*----- Icons -----*/
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+
+
 
 /*----- buttoms -----*/
 
@@ -145,3 +209,4 @@ h1 {
     border: 1px solid #e67e22;
     color: #fff;
 }
+
