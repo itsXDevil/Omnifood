@@ -142,12 +142,12 @@ section {
 .long-copy {
     line-height: 145%;
     width: 68%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 50px auto;
 }
 
 .box p {
     font-size: 90%;
-     line-height: 145%;
+    line-height: 145%;
 }
 
 /*----- Icons -----*/
@@ -161,7 +161,11 @@ section {
 
 
 
-/*----- buttoms -----*/
+/*-----------------------------------------------------------*/
+/*----- BOTTOMS -----*/
+/*-----------------------------------------------------------*/
+
+/*----- Header Buttoms -----*/
 
 .btn:link,
 .btn:visited {
@@ -176,7 +180,6 @@ section {
     -ms-transition: 0.6s;
     -o-transition: 0.6s;
 }
-
 
 .btn-full:link,
 .btn-full:visited {
@@ -207,3 +210,50 @@ section {
     color: #fff;
 }
 
+/*-----------------------------------------------------------*/
+/*----- MEALS -----*/
+/*-----------------------------------------------------------*/
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.meals-photo {
+    width: 100%;
+    background-color: #000;
+}
+
+.meals-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.meals-photo img:hover {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+
+
+}
