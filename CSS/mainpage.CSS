@@ -20,6 +20,15 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1;}
+.clearfix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /*-----------------------------------------------------------*/
 /*----- HEADINGS -----*/
 /*-----------------------------------------------------------*/
@@ -132,17 +141,25 @@ h2:after {
     margin: 0 auto 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
+/*section {
+    padding: 50px 0;
+}/*
 
 
 /*----- Paragraph -----*/
+
+.section-features {
+    margin-top: 50px;
+}
 
 .long-copy {
     line-height: 145%;
     width: 68%;
     margin: 0 auto 50px auto;
+}
+
+.box {
+    margin-bottom: 60px;
 }
 
 .box p {
@@ -262,19 +279,59 @@ section {
 /*----- HOW IT WORKS -----*/
 /*-----------------------------------------------------------*/
 
-.steps-box {
+.sections-steps {
+    background-color: rgb(231, 230, 230);
+}
+
+.sections-steps h2 {
+    margin-top: 40px;
+}
+
+.step-boxes:first-chiled {
     margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    padding-right: 3%;
 }
 
-.steps-box:first-child {
-text-align: right;
-padding-right: 3%;
-}
-
-.steps-box:last-child {
+.step-boxes:last-chiled {
     padding-left: 3%;
 }
 
 .app-screen {
     width: 40%;
+    padding-left: 120px;
+}
+
+.work-step {
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.work-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.work-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
