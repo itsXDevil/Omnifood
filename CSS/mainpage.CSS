@@ -11,6 +11,8 @@
     padding: 0px;
 }
 
+*:focus { outline: none;}
+
 html {
     background-color: white;
     color:#555;
@@ -222,7 +224,8 @@ a:active {
 /*----- Header Buttoms -----*/
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -236,7 +239,8 @@ a:active {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
     color: #fff;
     margin: 0 15px 0 0;
     background-color: #e67e22;
@@ -252,7 +256,9 @@ a:active {
 
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
     background-color: #bf6516;
     border: 1px solid #bf6516;
 }
@@ -355,6 +361,7 @@ a:active {
     border: 2px solid #e67e22;
     display: inline-block;
     border-radius: 50%;
+    float: left;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -363,7 +370,7 @@ a:active {
     width: 40px;
     text-align: center;
     padding: 5px;
-    float: left;
+
     font-size: 150%;
     margin-right: 25px;
 }
@@ -519,3 +526,129 @@ cite img {
 .section-form h2 {
     margin-top: 40px;
 }
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="checkbox"] {
+    margin: 10px 5px 10px 0;
+}
+
+.send-it {
+    margin-bottom: 50px;
+}
+
+/*-----------------------------------------------------------*/
+/*----- Footer -----*/
+/*-----------------------------------------------------------*/
+
+footer {
+    background-color: rgb(51, 51, 51);
+    padding: 40px;
+    font-size: 80%;
+}
+
+footer p {
+    margin-top: 30px;
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 120%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #e95950;
+}
+
+
+
+
+
