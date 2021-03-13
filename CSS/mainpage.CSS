@@ -330,8 +330,11 @@ input[type="submit"]:active {
     margin-top: 40px;
 }
 
-.step-boxes:first-chiled {
+.step-boxes {
     margin-top: 30px;
+}
+
+.step-boxes:first-chiled {
     display: inline-block;
     text-align: center;
     padding-right: 3%;
