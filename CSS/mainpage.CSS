@@ -13,13 +13,15 @@
 
 *:focus { outline: none;}
 
-html {
+html,
+body {
     background-color: white;
     color:#555;
     font-family: 'Lato','arial','sans-serif';
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1;}
@@ -245,7 +247,7 @@ input[type="submit"] {
     margin: 0 15px 0 0;
     background-color: #e67e22;
     border: 1px solid #e67e22;
-    margin: 0 0 0 4px;
+    margin: 0 10px;
 }
 
 .btn-ghost:link,
