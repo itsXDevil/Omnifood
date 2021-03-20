@@ -64,7 +64,13 @@ header {
     margin: 20px 0 0 0 ;
 }
 
-.logo-black { display: none;}
+.logo-black { 
+    display: none;
+    height: 55px;
+    width: auto;
+    float: left;
+    margin: 4px 0 4px 0 ;
+}
 
 
 /* Main Navi */
@@ -100,25 +106,45 @@ header {
     -o-transition: 0.5s;
 }
 
-/* Sticky Navi 
+/* Sticky Navi */
 
 .sticky { 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.884);
+    background-color: rgba(255, 255, 255, 0.959);
+    box-shadow: 0 1px 2px rgba(153, 153, 153, 0.973);
+    z-index: 9999;
+}
+
+.sticky .main-nav li {
+    display: inline-block;
+    margin: 20px 30px 0 0;
 }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     color: #555;
-    padding: 0 0 5px 0 ;
+    padding: 0 0 21px 0 ;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
-} */
+} 
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.sticky .logo { display: none;}
+.sticky .logo-black { display: block;}
 
 /*-----------------------------------------------------------*/
 /*----- HEADERS -----*/
@@ -656,11 +682,11 @@ footer p {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
+    transition: 0.3  s;
+    -webkit-transition: 0.3  s;
+    -moz-transition: 0.3  s;
+    -ms-transition: 0.3  s;
+    -o-transition: 0.3  s;
 }
 
 
