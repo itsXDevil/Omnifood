@@ -7,7 +7,7 @@ $(document).ready (function() {
             $('nav').removeClass('sticky');
         }
     }, {
-        offset: '150px'
+        offset: '140px'
       });    
 
    
