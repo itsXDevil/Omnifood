@@ -6,12 +6,8 @@
 /*----- BASIC SETUP -----*/
 /*-----------------------------------------------------------*/
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
-*:focus { outline: none;}
+
 
 html,
 body {
@@ -21,8 +17,17 @@ body {
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
+
+*:focus { outline: none;}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 
 .clearfix {zoom: 1;}
 .clearfix::after{
