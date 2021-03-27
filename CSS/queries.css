@@ -45,8 +45,8 @@
     .main-nav {display: none;}
     .long-copy { width: 100%; margin-left: 0%;}
     .app-screen { width: 40%; margin-top: 25px;}
-    .btn-app { margin-left: 40px;}
-    .btn-app:last-child { margin-left: 8px;}
+    .btn-app { margin-left: 40px; display: block;}
+    .btn-app:last-child { margin-left: 55px;}
 
     .work-step { margin-bottom: 20px;}
     .work-step:last-of-type { margin-bottom: 30px;}

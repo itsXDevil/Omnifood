@@ -193,7 +193,7 @@ h2:after {
     width: 100px;
     height: 2px;
     background-color: #e67e22;
-    margin: 25 auto 0 auto;
+    margin: 15 auto 0 auto;
     content: " ";
 }
 
@@ -214,23 +214,24 @@ h2:after {
 
 /*----- Paragraph -----*/
 
-.section-features {
-    margin-top: 50px;
+.section-features h2{
+    margin-top: 80px;
 }
 
 .long-copy {
     line-height: 145%;
     width: 68%;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 70px auto;
 }
 
 .box {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .box p {
     font-size: 90%;
     line-height: 145%;
+    margin-bottom: 45px;
 }
 
 /*----- Icons -----*/
@@ -387,7 +388,7 @@ input[type="submit"]:active {
 }
 
 .sections-steps h2 {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .step-boxes {
@@ -406,7 +407,7 @@ input[type="submit"]:active {
 
 .app-screen {
     margin-bottom: 50px;
-    width: 40%;
+    width: 60%;
     padding-left: 120px;
 }
 
@@ -429,10 +430,10 @@ input[type="submit"]:active {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     text-align: center;
-    padding: 5px;
+    padding: 5px 5px;
 
     font-size: 150%;
     margin-right: 25px;
@@ -447,11 +448,16 @@ input[type="submit"]:active {
     height: 50px;
     width: auto;
     margin-right: 10px;
+    margin-bottom: 50px;
 }
 
 /*-----------------------------------------------------------*/
 /*----- CITIES -----*/
 /*-----------------------------------------------------------*/
+
+.section-cities {
+    margin-bottom: 30px;
+}
 
 .section-cities h2 {
     margin-top: 60px;
@@ -521,7 +527,7 @@ cite img {
 /*-----------------------------------------------------------*/
 
 .section-plans h2 {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .section-plans {
@@ -529,7 +535,7 @@ cite img {
 }
 
 .plan-box {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     background-color: #fff;
     width: 90%;
     margin-left: 5%;
@@ -712,6 +718,8 @@ footer p {
 }
 
 
+/*-----------------------------------------------------------*/
+/*----- Animations -----*/
+/*-----------------------------------------------------------*/
 
-
-
+.js--wp-1 { opacity: 0;}
