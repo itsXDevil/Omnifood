@@ -151,6 +151,21 @@ header {
 .sticky .logo { display: none;}
 .sticky .logo-black { display: block;}
 
+/* Mobile Navi */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 150%;
+    color: #fff;
+}
+
+
 /*-----------------------------------------------------------*/
 /*----- HEADERS -----*/
 /*-----------------------------------------------------------*/
@@ -722,4 +737,7 @@ footer p {
 /*----- Animations -----*/
 /*-----------------------------------------------------------*/
 
-.js--wp-1 { opacity: 0;}
+/*.js--wp-1 { opacity: 0;}
+.js--wp-1.animated { opacity: 1;}
+*/
+
