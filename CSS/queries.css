@@ -5,6 +5,8 @@
     .hero-text-box{width: 100%; padding: 0 2%;}
     .row { padding: 0 2%; }
     h1 { padding: 0 2%;}
+
+    .main-nav { display: inline-block;}
 }
 
 
@@ -12,6 +14,9 @@
 @media only screen and (max-width: 1023px){
     body { font-size: 18px;}
     section { padding: 60px 0;}
+
+    .main-nav { display: inline-block;}
+
     .long-copy { width: 80%; margin-left: 10%;}
     .step-boxes{margin-top: 10px; }
     .step-boxes:last-child{margin-top: 10px; }
@@ -37,12 +42,15 @@
     h1 { font-size: 160%;}
     h2 { font-size: 150%;}
 
+   /* .box img { width: 90%; height: auto;} */
+
     .col {width: 100%; margin: 0 0 1.5% 0;}
     .row,
     .hero-text-box { padding: 0 4%;}
     .hero-text-box a {margin: 0 10px;}
 
-    .main-nav {float: left; margin: 38px 0 0 10px;}
+    .main-nav { display: none;}
+    .main-nav {float: left; margin: 38px 0 0 20px;}
     .main-nav li { display: block; margin-top: 10px;}
     .main-nav li a:link,
     .main-nav li a:visited{ display: block;  border: 0;}
@@ -51,10 +59,19 @@
     .mobile-nav-icon i{ border: 0;}
 
 
+    .sticky .main-nav { margin: 15px 0 0 20px;}
+    .sticky .main-nav li { display: block;  margin: 5px 10px 0 0; }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 10px 0 ; border: none;} 
+    .sticky .mobile-nav-icon { margin-top: 20px;}
+    .sticky .mobile-nav-icon i{ color: #555; }
+
+
     .long-copy { width: 100%; margin-left: 0%;}
     .app-screen { width: 40%; margin-top: 25px;}
     .btn-app { margin-left: 40px; display: block;}
     .btn-app:last-child { margin-left: 55px;}
+    .btn-full { margin-right: 10px;}
 
     .work-step { margin-bottom: 20px;}
     .work-step:last-of-type { margin-bottom: 30px;}
@@ -85,6 +102,9 @@ h1 { font-size: 140%;}
 
     section { padding: 25px 0px ;}
     .contact-form { width: 100%;}
+
+
+
 }
 
 
