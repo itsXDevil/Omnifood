@@ -22,7 +22,7 @@
     .step-boxes:last-child{margin-top: 10px; }
     .work-step{margin-bottom: 40px; }
     .work-step:last-of-type{margin-bottom: 60px; }
-    .app-screen { width: 40%; margin-top: 27px;}
+    .app-screen { width: 70%; margin-top: 55px;}
 
     .icon-small {width: 15px; margin-right: 3px; }
     .cities-feature {font-size: 80%;}
@@ -68,7 +68,7 @@
 
 
     .long-copy { width: 100%; margin-left: 0%;}
-    .app-screen { width: 40%; margin-top: 25px;}
+    .app-screen { width: 50%; margin-top: 25px; margin-left: 50px;}
     .btn-app { margin-left: 40px; display: block;}
     .btn-app:last-child { margin-left: 55px;}
     .btn-full { margin-right: 10px;}
@@ -103,8 +103,7 @@ h1 { font-size: 140%;}
     section { padding: 25px 0px ;}
     .contact-form { width: 100%;}
 
-
-
+    .app-screen { width: 70%; margin-top: 25px; margin-left: 0px; margin-right: 10px;}
 }
 
 

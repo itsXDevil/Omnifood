@@ -43,7 +43,7 @@ body {
 /*-----------------------------------------------------------*/
 
 header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.700) ,rgba(0, 0, 0, 0.700)) ,url(../CSS/img/hero.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.700) ,rgba(0, 0, 0, 0.700)) ,url(../CSS/img/hero-min.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -493,7 +493,7 @@ input[type="submit"]:active {
 /*-----------------------------------------------------------*/
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)),url(../CSS/img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)),url(../CSS/img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
