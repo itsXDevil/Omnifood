@@ -65,12 +65,13 @@
     .sticky .main-nav li a:visited {padding: 10px 0 ; border: none;} 
     .sticky .mobile-nav-icon { margin-top: 20px;}
     .sticky .mobile-nav-icon i{ color: #555; }
-
-
     .long-copy { width: 100%; margin-left: 0%;}
-    .app-screen { width: 50%; margin-top: 25px; margin-left: 50px;}
+
+    .btn-app img:first-child { margin:20px 0 0 0;}
+
     .btn-app { margin-left: 40px; display: block;}
-    .btn-app:last-child { margin-left: 55px;}
+    .btn-app:last-child { margin-left: 40px;}
+    .app-screen { width: 55%; margin-top: 25px; margin-left: 73px;}
     .btn-full { margin-right: 10px;}
 
     .work-step { margin-bottom: 20px;}
@@ -84,6 +85,11 @@
         margin-right: 15px;
         font-size: 120%;
     }
+
+    .section-features h2 { margin: 50px 0 40px 0;}
+    .long-copy { margin-bottom: 50px;}
+
+    .section-meals { padding-bottom: 0;}
 
     .section-cities h2 { margin-top: 20px;}
     .sections-steps h2 { margin-top: 20px;}
