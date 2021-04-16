@@ -69,8 +69,8 @@
 
     .btn-app img:first-child { margin:20px 0 0 0;}
 
-    .btn-app { margin-left: 40px; display: block;}
-    .btn-app:last-child { margin-left: 40px;}
+    .btn-app { margin-left: 20px; display: inline-block;}
+    .btn-app:last-child { margin-left: 10px;}
     .app-screen { width: 55%; margin-top: 25px; margin-left: 73px;}
     .btn-full { margin-right: 10px;}
 
@@ -103,13 +103,16 @@
 /*Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px){
 
-h1 { font-size: 140%;}
-
+    h1 { font-size: 140%;}
 
     section { padding: 25px 0px ;}
     .contact-form { width: 100%;}
 
-    .app-screen { width: 70%; margin-top: 25px; margin-left: 0px; margin-right: 10px;}
-}
+    .app-screen { width: 40%; padding: 0; margin: 25px 50px 50px 95px;}
 
+    .btn-full {padding-bottom: 20px;}
+    .hero-text-box .btn { margin: 0 5px;}
+    .btn-app:last-child { margin-left: 20px;}
+
+}
 
